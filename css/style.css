@@ -1,0 +1,115 @@
+@import 'utilities.css';
+:root{
+    --primary: #28df99;
+    --dark: #1b262c;
+    --light:#fcfcfc;
+}
+
+body{
+    font-family: 'Poppins', sans-serif ;
+    background: linear-gradient(to right, var(--light), #F8F8F8,#a1a1a1);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+header{
+    background: linear-gradient(to right, var(--dark), 	#313B41, #767C80);
+    height: 770px;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 65% 90%, 0 100%) ;
+}
+
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+header nav .left a{
+    color: var(--light);
+    text-decoration: none;
+    margin-right: 3rem;
+    text-transform:uppercase ;
+    transition:all .3s ;
+}
+
+header nav{
+    padding: 2rem 0;
+}
+header nav .logo{
+    margin-right: 12rem;
+    margin-left: -1rem;
+}
+
+.book1{
+    padding:3.5rem 0 ;
+}
+
+.book1 .left img{
+  width: 600px;
+}
+.book1 .right{
+    color: var(--light);
+    margin-top: 10rem;
+}
+.book1 .left{
+    font-size: 22px ;
+    color: var(--light);
+    margin-top: -3.5rem ;
+    margin-left: -5rem; 
+} 
+
+.book1 .right h1{
+    font-size: 2.5rem;
+    font-weight: 250 ;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.book1 .right h1 span{
+    color: var(--primary);
+}
+.book1 .right p{
+    line-height:1.9 ;
+    margin-bottom: 2rem;
+}
+
+.book1 .right{
+    margin-top: -5rem ;
+    margin-left: 15rem;
+}
+
+section{
+    padding: 6rem 0;
+    background: linear-gradient(to right, var(--light), #F8F8F8 ,#a1a1a1);
+}
+
+section.poster .poster-image{
+    height: 500px;
+    margin-left: 15rem;
+}
+section.poster h1{
+    font-size: 2.5rem;
+    font-weight: 250 ;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+section.poster .p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+section.poster h1 span{
+    color: var(--primary);
+}
+section.poster .left{
+    color: var(--dark);
+}
+section.poster p span{
+    color: var(--primary);
+}
+
+

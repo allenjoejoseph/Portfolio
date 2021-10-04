@@ -1,0 +1,66 @@
+@import 'utilities.css';
+:root{
+    --primary: #28df99;
+    --dark: #1b262c;
+    --light:#fcfcfc;
+}
+body{
+    font-family: 'Poppins', sans-serif ;
+    background: linear-gradient(to right, var(--light), #F8F8F8,#a1a1a1);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+header{
+    background: linear-gradient(to right, var(--dark), 	#313B41, #767C80);
+    height: 150px;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 55% 90%, 0 100%) ;
+}
+header .home{
+    margin-top: -5.9rem;
+    margin-left: 20rem;
+    
+}
+
+header .home a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+.container{
+   
+    padding:0 15px;
+    
+}
+
+
+header .logo{
+    margin-right: 12rem;
+    margin-left: 1rem;
+}
+
+section .content{
+    text-align: center;
+    margin-top: 18rem;
+}
+
+section .content h1{
+    margin-bottom: 3rem;
+    color: #28df99;
+   
+}
+
+section .me{
+    margin-top: 3rem;
+    margin-left: 42rem;
+    align-items: center;
+    margin-bottom: -15rem;
+}
+
+section .content .p{
+    color: #1b262c;
+}

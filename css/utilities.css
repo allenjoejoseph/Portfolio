@@ -1,0 +1,58 @@
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 0.7rem 1.5rem;
+    font-size: 13px;
+    font-weight: 600;
+    border: 3px solid transparent;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.btn-primary{
+    background: var(--primary);
+    color: var(--light);
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color:var(--primary);
+}
+
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--dark);
+}
+.flex-1{
+    flex:1;
+}
+header nav .left a:hover{
+    color: var(--primary);
+
+}
+.btn-3{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+    margin-top: 2rem;
+}
+.btn-3:hover{
+    background: var(--primary);
+    color: var(--dark);
+}
